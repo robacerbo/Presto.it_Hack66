@@ -1,0 +1,32 @@
+{
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-c6569d46.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-966620f9.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "public/media/car.jpg": {
+    "file": "assets/car-92a7e50d.jpg",
+    "src": "public/media/car.jpg"
+  },
+  "public/media/cuffie.jpg": {
+    "file": "assets/cuffie-a9219cad.jpg",
+    "src": "public/media/cuffie.jpg"
+  },
+  "public/media/phone.png": {
+    "file": "assets/phone-b0788cf7.png",
+    "src": "public/media/phone.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-cdd9593e.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-be2ec285.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
