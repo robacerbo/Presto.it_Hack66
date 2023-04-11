@@ -30,6 +30,7 @@
                     <span class="error text-danger">{{ $message }}</span>
                     @enderror
                     <button class="mb-3 buttonModal d-flex ">{{__('ui.crea')}}</button>
+                    {{-- <a href="{{'confirm-password'}}"></a><button class="mb-3 buttonModal d-flex ">Conferma Password</button> --}}
                 </form>
             </div>
             <div class="form-container sign-in-container">
@@ -52,7 +53,7 @@
                     @enderror
                     <input class="inputModal" type="checkbox" class="form-check-input" id="remember" checked>
                     <label class="form-check-label" for="remember">{{__('ui.ricordami')}}</label>
-                    <a href="#">{{__('ui.pswdimenticata')}}</a>
+                    <a href="{{'forgot-password'}}">{{__('ui.pswdimenticata')}}</a>
                     <button class="mt-2 buttonModal ">{{__('ui.accedi')}}</button>
                 </form>
             </div>

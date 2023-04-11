@@ -1,5 +1,9 @@
 <x-layout>
-    
+    @if (session('status'))
+    <div class="mb-4 font-medium text-sm text-green-600">
+        {{ session('status') }}
+    </div>
+    @endif
     <div class="container vh-100 d-flex align-items-center justify-content-center mt-5">
         <div class="containerModal h-md-50 w-md-75 h-75" id="containerModal">
             <div class="form-container sign-up-container">
@@ -39,6 +43,7 @@
                     <span class="error text-danger">{{ $message }}</span>
                     @enderror
                     <button class="mb-3 buttonModal d-flex ">{{__('ui.crea')}}</button>
+                    
                 </form>
             </div>
             <div class="form-container sign-in-container">
@@ -70,7 +75,7 @@
                     @enderror
                     <input class="inputModal" type="checkbox" class="form-check-input" id="remember" checked>
                     <label class="form-check-label" for="remember">{{__('ui.ricordami')}}</label>
-                    <a href="#">{{__('ui.pswdimenticata')}}</a>
+                    <a href="{{'forgot-password'}}">{{__('ui.pswdimenticata')}}</a>
                     <button class="mt-2 buttonModal ">{{__('ui.accedi')}}</button>
                 </form>
             </div>
