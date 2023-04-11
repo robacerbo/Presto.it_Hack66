@@ -26,7 +26,7 @@ Route::get('/ricerca/prodotto', [PublicController::class, 'searchProducts'])->na
 
 
 // ROTTE PRODUCT
-Route::get('/product/create', [ProductController::class, 'create'])->name('product.create');
+Route::get('/product/create', [ProductController::class, 'create'])->middleware(['verified'])->name('product.create');
 Route::get('/product/show/{product}', [ProductController::class, 'show'])->name('product.show');
 Route::get('/product/index', [ProductController::class, 'index'])->name('product.index');
 Route::get('/product/edit/{product}', [ProductController::class, 'edit'])->name('product.edit');
